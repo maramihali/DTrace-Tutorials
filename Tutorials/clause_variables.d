@@ -3,7 +3,7 @@
 int me;
 
 /* an integer clause-local variable, active for the lifetime of clause
-and then claimed back for reuse, defineed using the special identifier this
+and then claimed back for reuse, defined using the special identifier this
 then, they can be assigned by applying the -> operator to this */
 this int foo; 
 
